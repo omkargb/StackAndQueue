@@ -14,6 +14,7 @@ namespace StackAndQueueProject
             stak.Push(70);
             stak.Push(30);
             stak.Push(56);
+            stak.IsEmpty();
         }
     }
 }
