@@ -19,6 +19,10 @@ namespace StackAndQueueProject
             Console.Write(" Queue elements : [Top] →");
             llqueue.Display();
 
+            //remove first added element
+            llqueue.Dequeue();
+            llqueue.Display();
+
             //adding elements to stack
             //Console.WriteLine(" Adding Elements to stack... - Last Element is 'TOP'.");
             //stak.Push(70);
